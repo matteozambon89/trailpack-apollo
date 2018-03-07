@@ -1,0 +1,17 @@
+# import Author from "./model.author.graphql"
+
+schema {
+  query: Query
+}
+
+type Query {
+  posts: [Post!]!
+}
+
+type Post {
+  id: ID!
+  isPublished: Boolean!
+  title: String!
+  text: String!
+  author: Author!
+}

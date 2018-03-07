@@ -1,0 +1,21 @@
+schema {
+  query: Query
+}
+
+type Query {
+  posts: [Post!]!
+}
+
+type Author {
+  id: ID!
+  name: String!
+  posts: [Post!]!
+}
+
+type Post {
+  id: ID!
+  isPublished: Boolean!
+  title: String!
+  text: String!
+  author: Author!
+}

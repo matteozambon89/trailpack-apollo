@@ -1,0 +1,11 @@
+./test/index.js
+./test/integration/**.test.js
+
+--reporter spec
+--slow 50
+--timeout 10000
+--recursive
+--full-trace
+--slow 50
+--globals app
+--no-exit
