@@ -1,6 +1,6 @@
 {
   "name": "trailpack-apollo",
-  "version": "3.0.0",
+  "version": "3.0.0-alpha.0",
   "description": "GraphQL for Trails.JS powered by Apollo",
   "homepage": "http://trailsjs.io",
   "author": {
